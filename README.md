@@ -22,6 +22,49 @@ Desarrollo Móvil Integral · UTNG
 
     flutter test
 
+## Evidencia de TDD (ciclo Rojo → Verde por ronda)
+
+En cada ronda se escribe primero la prueba, se ve fallar (rojo), se implementa lo mínimo para que pase (verde) y después se mejora el código.
+
+### Ronda 1: Cliente seguro
+**Rojo:** la prueba falla porque aún no existe `cliente_seguro.dart`.
+
+![Ronda 1 rojo](capturas/ronda1_rojo.png)
+
+**Verde:** con `cliente_seguro.dart` implementado, la prueba pasa.
+
+![Ronda 1 verde](capturas/ronda1_verde.png)
+
+### Ronda 2: Seguridad (claves y configuración)
+**Rojo:**
+
+![Ronda 2 rojo](capturas/ronda2_rojo.png)
+
+**Verde:**
+
+![Ronda 2 verde](capturas/ronda2_verde.png)
+
+### Ronda 3: Servicios (las 5 APIs)
+**Rojo:**
+
+![Ronda 3 rojo](capturas/ronda3_rojo.png)
+
+**Verde:**
+
+![Ronda 3 verde](capturas/ronda3_verde.png)
+
+### Ronda 4: TableroViewModel
+**Rojo:**
+
+![Ronda 4 rojo](capturas/ronda4_rojo.png)
+
+**Verde:**
+
+![Ronda 4 verde](capturas/ronda4_verde.png)
+
+### Resultado final: todas las pruebas pasando
+![Todas las pruebas](capturas/final_todas_verde.png)
+
 ## Evidencias
 
 ### Proceso y Funcionamiento 
